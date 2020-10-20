@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-firestore.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.min.js" integrity="sha512-/seDHxVfh1NvFUscAj8GsHQVZJvr2jjAoYsNL7As2FCaFHUHYIarl3sRCvVlFgyouVNiRgHIebyLKjpgd1SLDw==" crossorigin="anonymous"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDuFFZK5-4jQtNpVtsJJSgb2rAh5ZLDpiw",
+    authDomain: "rusdev-firebasetutorial.firebaseapp.com",
+    databaseURL: "https://rusdev-firebasetutorial.firebaseio.com",
+    projectId: "rusdev-firebasetutorial",
+    storageBucket: "rusdev-firebasetutorial.appspot.com",
+    messagingSenderId: "661392015546",
+    appId: "1:661392015546:web:02c04871bb69df38ae8283",
+    measurementId: "G-BR598E2Y2Q"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+<script src ="app.js" defer></script>
+</head>
+<body>
+  <h1>HELLO</h1>
+
+  <section id="whenSignedOut">
+
+    <button id="signInBtn" >Sign in with Google</button>
+
+  </section>
+
+  <section id="whenSignedIn" hidden="true">
+
+    <div id="userDetails"></div>
+
+    <button id="signOutBtn" >Sign Out</button>
+
+  </section>
+
+  <section>
+  
+    <ul id="thingsList">
+
+    </ul>
+
+    <button id="createThing">Create Random Thing</button>
+
+  </section>
+
+
+</body>
+</html>
