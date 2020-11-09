@@ -1,181 +1,181 @@
 
 body{
-		background-color:#f4f4f4;
-		color:#555555
-		
-		font: normal 16px Arial, Helvetica, sans-serif;
-		
-		line-height:1.6em;
-		margin:0;
+	background-color:#f4f4f4;
+	color:#555555
+	
+	font: normal 16px Arial, Helvetica, sans-serif;
+	
+	line-height:1.6em;
+	margin:0;
 }
 
 a{
-	text-decoration: none;
-	color:#000;
+text-decoration: none;
+color:#000;
 }
 
 a:hover{
-	color:red;
+color:red;
 }
 
 a:active{
-	color:green;
+color:green;
 }
 
 .button{
-	background-color:green;
-	color:#fff;
-	padding:10px 15px;
-	border:none;
+background-color:green;
+color:#fff;
+padding:10px 15px;
+border:none;
 }
 
 .button:hover{
-	background:red;
-	color:#fff;
+background:red;
+color:#fff;
 }
 
 
 .clr{
-	clear:both;
+clear:both;
 }
 .container{
-	width:80%;
-	margin:5px 10px;
+width:80%;
+margin:5px 10px;
 }
 
 .box-1{
-	background-color:#333;
-	color:#fff;
-	
-	border: 5px red solid;
+background-color:#333;
+color:#fff;
 
-	padding:20px;
-	
-	margin: 20px 0;
+border: 5px red solid;
+
+padding:20px;
+
+margin: 20px 0;
 }
 
 .box-1 h1{
-		font-family:Tahoma;
-		font-weight:800;
-		text-decoration:underline;
-		text-transform:uppercase;
+	font-family:Tahoma;
+	font-weight:800;
+	text-decoration:underline;
+	text-transform:uppercase;
 
 }
 
 .box-2{
-	border: 3px solid #ccc;
-	padding:20px;
-	margin:20px 0;
+border: 3px solid #ccc;
+padding:20px;
+margin:20px 0;
 }
 
 .categories{
-	border: 3px solid #ccc;
-	padding:20px;
-	margin:20px 0;
-	
-	
+border: 3px solid #ccc;
+padding:20px;
+margin:20px 0;
+
+
 }
 
 .categories h2{
-		text-align:center;
+	text-align:center;
 }
 
 .categories ul{
-		padding:0;
-		list-style:square;
-		list-style:none;
+	padding:0;
+	list-style:square;
+	list-style:none;
 }
 
 .categories li{
-	padding-bottom:6px;
-	border-bottom:dotted 1px #333;
-	list-style-image: url('check.jpg');
+padding-bottom:6px;
+border-bottom:dotted 1px #333;
+list-style-image: url('check.jpg');
 }
 
 .my-form{
-	padding:20px;
+padding:20px;
 }
 .my-form .form-group{
-	padding-bottom:15px;
+padding-bottom:15px;
 }
 
 .my-form label{
-	display:block;
+display:block;
 }
 
 .my-form input[type="text"],.my-form textarea{
-	padding:8px;
-	width:100%;
+padding:8px;
+width:100%;
 }
 
 .block{
-	float:left;
-	width:33.3%;
-	border:1px solid #ccc;
-	padding:10px;
-	box-sizing:border-box;
-	
+float:left;
+width:33.3%;
+border:1px solid #ccc;
+padding:10px;
+box-sizing:border-box;
+
 }
 
 #main-block{
-	float:left;
-	width:70%;
-	padding:15px;
-	box-sizing: border-box;
+float:left;
+width:70%;
+padding:15px;
+box-sizing: border-box;
 }
 
 #sidebar{
-	float:right;
-	width:30%;
-	background-color:#333;
-	color:#fff;
-	padding:15px;
-	box-sizing: border-box;
-	
+float:right;
+width:30%;
+background-color:#333;
+color:#fff;
+padding:15px;
+box-sizing: border-box;
+
 }
 
 .p-box{
-	width:800px;
-	height:450px;
-	border:1px solid #000;
-	margin-top:30px;
-	position:relative;
-	background-image:url('bg.png');
-	background-position:center center;
-	
+width:800px;
+height:450px;
+border:1px solid #000;
+margin-top:30px;
+position:relative;
+background-image:url('bg.png');
+background-position:center center;
+
 }
 
 .p-box h1{
-	position:absolute;
-	top:40px;
-	left:100px;
-	color:white;
+position:absolute;
+top:40px;
+left:100px;
+color:white;
 }
 
 .p-box h2{
-	position:absolute;
-	bottom:40px;
-	right:100px;
-	color:white;
+position:absolute;
+bottom:40px;
+right:100px;
+color:white;
 }
 
 .fix-me{
-	position:fixed;
-	top:10px;
+position:fixed;
+top:10px;
 }
 
 .my-list li:first-child{
-	background: red;
+background: red;
 }
 
 .my-list li:last-child{
-	background: blue;
+background: blue;
 }
 
 .my-list li:nth-child(5){
-	background:yellow;
+background:yellow;
 }
 
 .my-list li:nth-child(even){
-		background: grey;
+	background: grey;
 }
