@@ -1,5 +1,5 @@
 body{
-	background: #d8d8d8;
+	background-image:url("https://img.wallpapersafari.com/desktop/1920/1080/45/4/wMPXDm.jpg");
 }
 .social-menu ul {
     position: absolute;
@@ -53,3 +53,15 @@ body{
 .social-menu ul li:nth-child(5) a:hover {
     background-color: #0077B5;
 }
+
+.social-menu ul li:nth-child(6) a:hover{
+    background-color: #0077B5;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 28%;
+    height: 28%;
+  }
